@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,200;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik' ,sans-serif;
+}
+
+.nav-bar {
+    padding: 10px;
+    background-color: #292929;
+    text-decoration: none;
+}
+
+.nav-ul {
+    display: flex;
+    justify-content: space-around;    
+}
+
+
+nav ul, a {
+    font-family: 'Poppins' ,sans-serif;
+}
+
+.nav-bar-info {
+    text-decoration: none;
+    color: darkorange;
+}
+
+main {
+    align-items: center;
+    width: 100%;
+    height: 800px;
+}
+
+
+.text-main {
+    font-family: 'Rubik' ,sans-serif;
+    text-align: center;
+    padding-top: 2px;
+    padding: 20px;
+    background-color: darkorange;
+
+}
+
+.img-container-main {
+    position: relative;
+}
+
+
+.img-main {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin: 3% 3% 3% 3%;
+    padding: 1% 20% 1% 20%;
+    
+}
+
+div img{
+    width: 159px;
+    height: 200px;
+}
+
+.container-text-button {
+    padding: 20px 85px 45px 85px;
+    position: relative;
+}
+
+.container-text {
+    padding: 20px;
+    justify-content: center;
+}
+
+
+.buttons-main {
+    width: 18%;
+    position: relative;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;  
+}
+
+button {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    background: darkorange;
+    border: 2px solid darkorange;
+    margin-top: 1px;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer p, a {
+    font-size: 12px;
+}
+
+footer {
+    margin-top: 10px;
+    background: #292929;
+    padding: 50px;
+    color: grey;
+}
+
+footer h3 {
+    font-family: 'Poppins', serif;
+    margin-bottom: 40px;
+    position: relative;
+    font-size: 16px;
+    color: grey;
+
+}
+

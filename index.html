@@ -5,56 +5,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gatos</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#">Sobre Nós</a></li>
-            <li><a href="#">Serviços</a></li>
-            <li><a href="login.html">Login</a></li>
-            <li><a href="contato.html">Contato</a></li>
+
+    <nav class="nav-bar">
+        <ul class="nav-ul">
+            <a class="nav-bar-info" href="index.html">Home</a>
+            <a class="nav-bar-info"  href="#">Sobre Nós</a>
+            <a class="nav-bar-info" href="#">Serviços</a>
+            <a class="nav-bar-info" href="login.html">Login</a>
+            <a class="nav-bar-info" href="contato.html">Contato</a>
         </ul>
     </nav>
-    <header>
-        <div class="home">
-            <div class="texto-home">
-                <container>
-                    <h1>Gatinhos Fofos</h1>
-                    <h3>Página de gatinhos fofos, lindos e requisitados!!!</h3>
-                </container>
-            </div>
-        </div>
-    </header>
 
     <main>
-        <section>
-            <div>
-                <div class="img-home">
+        <section class="main">
+            <div class="container-main">
+                <div class="text-main">
                     <container>
-                        <img src="assets/img/gato-home.jpg" alt="gato-home" width="500" height="500">
+                        <h1>Gatos Fofos</h1>
+                        <h3>Página de gatos fofos, lindos e requisitados!!!</h3>
                     </container>
                 </div>
-                <div class="button-menu">
-                    <p>
-                        Você ama gatos?? Se sim... clique no botão"Eu amo gatos".
-                    </p>
-                    <button type="like">
+                <div class="img-container-main">
+                    <div class="img-main">
+                        <img src="assets/img/gato-home.jpg" alt="gato-main-1" width="350" height="250">
+                        <img src="assets/img/gato-home.jpg" alt="gato-main-2" width="350" height="250">
+                        <img src="assets/img/gato-home.jpg" alt="gato-main-3" width="350" height="250">
+                        <img src="assets/img/gato-home.jpg" alt="gato-main-2" width="350" height="250">
+                        <img src="assets/img/gato-home.jpg" alt="gato-main-3" width="350" height="250">
+                        <img src="assets/img/gato-home.jpg" alt="gato-main-1" width="350" height="250">
+                        <img src="assets/img/gato-home.jpg" alt="gato-main-2" width="350" height="250">
+                        <img src="assets/img/gato-home.jpg" alt="gato-main-3" width="350" height="250">
+                        <img src="assets/img/gato-home.jpg" alt="gato-main-2" width="350" height="250">
+                        <img src="assets/img/gato-home.jpg" alt="gato-main-3" width="350" height="250">
+                    </div>
+                </div>
+
+                <div class="container-text-button">
+                    <div class="container-text">
+                        <div class="text">
+                            <p class="text-1">
+                                Você gosta gatos?? Se sim... clique no botão"Eu amo gatos".
+                            </p>
+                            <p class="text-2">
+                                Você gosta gatos?? Se não... clique no botão"Eu não gosto de gatos".
+                            </p>
+                        </div>
+                    </div>
+                
+                <div class="buttons-main"> 
+                    <button class="btn-like">
                         <a
-                            href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.pt%2Fluciampsantos5%2Ffotos-de-gatinhos-fofinhos%2F&psig=AOvVaw2VHol2sI7Lyc1-KUb-YQMX&ust=1698235179673000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCMjb6pbRjoIDFQAAAAAdAAAAABAE">
-                            Eu amo gatos
+                            href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.pt%2Fluciampsantos5%2Ffotos-de-gatinhos-fofinhos%2F&psig=AOvVaw2VHol2sI7Lyc1-KUb-YQMX&ust=1698235179673500&source=images&cd=vfe&ved=0CBEQjRxqFwoTCMjb6pbRjoIDFQAAAAAdAAAAABAE">
+                            Eu amo
                         </a>
                     </button>
-
-                    <p>Você ama gatos?? Se não... clique no botão"Eu não gosto de gatos".</p>
-                    <button type="deslike">
+                    <button class="btn-deslike">
                         <a
                             href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.revistaveterinaria.com.br%2Fvoce-ja-ouviu-falar-na-sindrome-do-gato-nervoso%2F&psig=AOvVaw1MKh-mIhFThLDw_HnuYehk&ust=1698236831365000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNj04KnXjoIDFQAAAAAdAAAAABAE">
-                            Eu não gosto de gatos
+                            Eu não
                         </a>
                     </button>
 
+                    </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -62,8 +79,8 @@
 
     <footer>
         <div class="footer">
-            <div>
-                <p>Desenvolvido por Jonas Ferreira</p>
+            <div class="footer-text">
+                <h3>Desenvolvido por Jonas Ferreira</h3>
                 <p><a href="jonasdanova@gmail.com">jonasdanova@gmail.com</a></p>
                 <p>Copyright &copy; 2023</p>
             </div>
